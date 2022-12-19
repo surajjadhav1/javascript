@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- css  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my.css">
+  <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <ul class="nav justify-content-end text-center">
+            <li class="nav-item">
+              <a class="nav-link f14" aria-current="page" href="#">Roll No : 96</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">Name : Suraj Jadhav</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">PRN No : 220940420097</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">GR No : M06012204824</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul class="nav justify-content-end text-center">
+            <li class="nav-item">
+              <a class="nav-link  f-25" aria-current="page" href="#"><i class="fa-brands fa-square-facebook " style="font-size: 25px;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-25" href="#"><i class="fa-brands fa-instagram " style="font-size: 25px;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-25" href="#"><i class="fa-brands fa-whatsapp " style="font-size: 25px;"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <header class="header-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-2 text-center">
+          <img src="images/logo-dark.png" class="img-fluid logo mt-1" alt="">
+        </div>
+        <div class="col-xl-10">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link bl" href="home.html">Home</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bl" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Assignments
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="student.html">Assignment 1</a></li>
+                      <li><a class="dropdown-item" href="time1.html">Assignment 2</a></li>
+                      <li><a class="dropdown-item" href="hotel.html">Assignment 3</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="assign4.html">Assignment 4</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mb-4">
+    <div class="row">
+
+      <div class="col-xl-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-xl-12 anim">
+              <div class="bg-light border border-primary p-4 ">
+
+                <h2 class="text-center pt-3 pb-4 hs">Student Form</h2>
+
+                <!-- <form action="#" > -->
+
+                <input id="roll" type="number" min="1" max="113" title="Example: 96" class="form-control mb-3"
+                  placeholder="Roll No">
+                <input id="name" type="text" class="form-control mb-3" title="Example: Suraj Jadhav"
+                  placeholder="Full Name">
+                <input id="mobile" type="number" maxvalue="10" class="form-control mb-3" title="Example: 7057501858"
+                  placeholder="Mobile No">
+
+                <select name="" title="Example: CDAC" id="course" class="form-select mb-3">
+                  <option value="">Select Course</option>
+                  <option value="DAC">DAC</option>
+                  <option value="DACA">DACA</option>
+                  <option value="MBA">MBA</option>
+                </select>
+
+                <button class="btn btn-primary form-control mb-4" onclick="myData()">Submit</button>
+
+
+                <!-- <div class="row">
+                <div class="col-xl-8"><button class="btn btn-primary form-control mb-4" onclick="myData()">Submit</button></div>
+                <div class="col-xl-4"><button class="btn btn-primary form-control mb-4" onclick="myReset()" >reset</button></div>
+               </div> -->
+                <!-- </form> -->
+                <b id="msg" class="text-center clr-red"></b>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-7 pt-5">
+
+        <div class=" border border-primary p-4 ">
+          <button class="btn btn-primary form-control mb-4" onclick="myDisplay()">Display Data</button>
+
+          <table id="tbl" class="bg-light table table-bordered table-striped table-responsive visible mb-4">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Mobile No</th>
+                <th>Course Name</th>
+              </tr>
+            </thead>
+            <tbody id="result">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- JavaScript -->
+  <script src="javascript/student.js"></script>
+  <script src="javascript/style.js"></script>
+
+</body>
+
+</html>

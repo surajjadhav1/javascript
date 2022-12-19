@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap'); */
+
+body
+{
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+}
+
+.hs
+{
+    color: #0d6efd;
+    font-weight: bolder;
+}
+
+.hss
+{
+    color: #0d6efd;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.hs1
+{
+    color: #198754;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+
+.hs2
+{
+    color: #0dcaf0;
+    font-weight: bolder;
+}
+
+.md10
+{
+  margin-top: 4rem;
+}
+
+.clr-red
+{
+    color: red;
+}
+
+.clr-grey
+{
+    color: #919191;
+}
+
+.header
+{
+    background-color: #e3e3e3!important;
+}
+
+.logo{
+    width: 120px;
+}
+
+.header-menu{
+  background: linear-gradient(to bottom, #ecc3ff 0%, #55f7ff 100%);
+}
+
+.f14
+{
+    font-size: 14px!important;
+    font-weight: bold;
+}
+
+.visible
+{
+    display: none;
+
+}
+
+.f25
+{
+  font-size: 25px!important;
+}
+
+.bl 
+{
+  color: black!important;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .respon {
+    font-size: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Time
+  
+  .new {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #10101e;
+  }
+
+  .mt5{
+    margin-top: 100px;
+  }
+  
+  .datetime {
+    color: #fff;
+    background: #10101e;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2e94e3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px
+      linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+  }
+  
+  .datetime:hover {
+    background: #2e94e3;
+    box-shadow: 0 0 30px #2e94e3;
+    cursor: none;
+  }
+  
+  .date {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child) {
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time span:last-child {
+    background: #2e94e3;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
+   */
+  
+  
+  
+  
+  

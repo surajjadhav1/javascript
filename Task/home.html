@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- css  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my.css">
+  <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <ul class="nav justify-content-end text-center">
+            <li class="nav-item">
+              <a class="nav-link f14" aria-current="page" href="#">Roll No : 96</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">Name : Suraj Jadhav</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">PRN No : 220940420097</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f14" href="#">GR No : M06012204824</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul class="nav justify-content-end text-center">
+            <li class="nav-item">
+              <a class="nav-link  f-25" aria-current="page" href="#"><i class="fa-brands fa-square-facebook " style="font-size: 25px;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-25" href="#"><i class="fa-brands fa-instagram " style="font-size: 25px;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-25" href="#"><i class="fa-brands fa-whatsapp " style="font-size: 25px;"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <header class="header-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-2 text-center">
+          <img src="images/logo-dark.png" class="img-fluid logo mt-1" alt="">
+        </div>
+        <div class="col-xl-10">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link bl" href="home.html">Home</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bl" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Assignments
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="student.html">Assignment 1</a></li>
+                      <li><a class="dropdown-item" href="time1.html">Assignment 2</a></li>
+                      <li><a class="dropdown-item" href="hotel.html">Assignment 3</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="assign4.html">Assignment 4</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+<div class="container ">
+   <marquee behavior="alternate" direction=""><h1 class="hs text-center md10">Let's Fun</h1></marquee>
+  
+
+  <div class="row md10">
+   <div class="col-xl-5 border border-info p-4 mb-2">
+      <h5 class="hs text-center">Write Here</h5>
+    <textarea id="myText" class="form-control" rows="6" cols="50"></textarea>
+   </div>
+   <div class="col-xl-1"></div>
+   <div class="col-xl-6 border border-info p-4 mb-2">
+    <h5 class="hs text-center">See Here</h5>
+    <!-- <h1 id="head"></h1>-->
+    <textarea id="head" class="form-control" rows="6" cols="50"></textarea>
+   </div>
+ 
+  </div>
+</div>
+
+
+
+<script>
+  
+document.getElementById("myText").addEventListener("keyup", myFunc);
+
+function myFunc() {
+  let x = document.getElementById("myText").value;
+  document.getElementById("head").innerHTML=x;
+  // let print = document.getElementById("head").innerHTML=x;
+}
+</script>
+
+
+
+
+
+  <!-- JavaScript -->
+  <script src="javascript/my.js"></script>
+  <script src="javascript/style.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
